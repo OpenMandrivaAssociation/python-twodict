@@ -38,7 +38,7 @@ BuildArch:      noarch
 BuildRequires:	pkgconfig(python)
 BuildRequires:	python3egg(setuptools)
 
-%description -n	python3-%{module}
+%description -n	python-%{module}
 TwoWayOrderedDict is a custom dictionary in which one can get the
 key:value relationship but can also get the value:key relationship.
 It also remembers the order in which the items were inserted and
