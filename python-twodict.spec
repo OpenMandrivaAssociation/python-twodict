@@ -31,14 +31,14 @@ supports almost all the features of the built-in dict.
 
 #------------------------------------------------
 
-%package -n	python-%{module}
+%package -n	python3-%{module}
 Summary:	Simple two-way ordered dictionary for Python 3
 Group:		Development/Python
 BuildArch:      noarch
 BuildRequires:	pkgconfig(python)
 BuildRequires:	python3egg(setuptools)
 
-%description -n	python-%{module}
+%description -n	python3-%{module}
 TwoWayOrderedDict is a custom dictionary in which one can get the
 key:value relationship but can also get the value:key relationship.
 It also remembers the order in which the items were inserted and
@@ -66,7 +66,7 @@ supports almost all the features of the built-in dict.
 %license LICENSE
 %{python2_sitelib}/*
 
-%files -n python-%{module}
+%files -n python3-%{module}
 %doc README.md
 %license LICENSE
 %{python_sitelib}/*
