@@ -21,7 +21,7 @@ Summary:	Simple two-way ordered dictionary for Python 2
 Group:		Development/Python
 BuildArch:      noarch
 BuildRequires:	pkgconfig(python2)
-BuildRequires:	pythonegg(setuptools)
+BuildRequires:	python2dist(setuptools)
 
 %description -n	python2-%{module}
 TwoWayOrderedDict is a custom dictionary in which one can get the
@@ -36,7 +36,7 @@ Summary:	Simple two-way ordered dictionary for Python 3
 Group:		Development/Python
 BuildArch:      noarch
 BuildRequires:	pkgconfig(python)
-BuildRequires:	python3egg(setuptools)
+BuildRequires:	python3dist(setuptools)
 
 %description -n	python3-%{module}
 TwoWayOrderedDict is a custom dictionary in which one can get the
