@@ -36,6 +36,7 @@ supports almost all the features of the built-in dict.
 
 %prep
 %setup -q -n %{module}-%{version}
+%autopatch -p1
 
 %build
 %py_build
