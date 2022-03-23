@@ -8,6 +8,7 @@ License:	Public Domain
 Group:		Development/Python
 Url:		https://github.com/MrS0m30n3/twodict
 Source0:	https://files.pythonhosted.org/packages/source/t/twodict/%{module}-%{version}.tar.gz
+Patch0:   fix-build-python310.patch
 BuildArch:      noarch
 
 %description
