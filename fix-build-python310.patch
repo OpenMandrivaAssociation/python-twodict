@@ -1,0 +1,19 @@
+Description: Compatibility with python 3.10
+Author: Steve Langasek <steve.langasek@ubuntu.com>
+Bug-Debian: https://bugs.debian.org/1001489
+Last-Update: 2021-12-11
+Forwarded: no
+
+Index: twodict-1.2/twodict.py
+===================================================================
+--- twodict-1.2.orig/twodict.py
++++ twodict-1.2/twodict.py
+@@ -6,7 +6,7 @@
+ """
+ 
+ import sys
+-import collections
++import collections.abc as collections
+ 
+ 
+ __all__ = ["TwoWayOrderedDict"]
