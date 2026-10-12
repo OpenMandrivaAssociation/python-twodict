@@ -2,7 +2,7 @@
 
 Name:		python-%{module}
 Version:	1.2
-Release:	6
+Release:	7
 Summary:	Simple two-way ordered dictionary for Python
 License:	Public Domain
 Group:		Development/Python
